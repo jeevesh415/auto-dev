@@ -196,8 +196,7 @@ class ArtifactUnitViewModel(
     }
 
     private fun getCurrentTimeMillis(): Long {
-        // Platform-independent time - to be implemented per platform
-        return 0L
+        return cc.unitmesh.agent.artifact.getCurrentTimeMillis()
     }
 
     /**
